@@ -28,6 +28,7 @@ void outputArray(int length, int number, int* arr);
 
 int main() 
 {
+	system("chcp 1251>null");
 	srand(time(NULL));
 	setlocale(LC_ALL, "ukr");
 
