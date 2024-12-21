@@ -1,3 +1,4 @@
+
 /*
 Завдання 1. Використовуючи два покажчики на масив цілих чисел, скопіювати один масив у інший. 
 Використовувати в програмі арифметику покажчиків для просування по масиву, а також оператор розіменування.
@@ -35,9 +36,9 @@ void invertArray(int lengthOfArray, int number, typeOfArray* array);
 int main() 
 {
 
-	system("chcp 1251>null");
 	setlocale(LC_ALL, "ukr");
 	srand(time(NULL));
+	system("chcp 1251>null");
 
 	cout << "\t\t\t\t\t\033[035mЗАВДАННЯ 1\033[0m" << endl << endl;
 
