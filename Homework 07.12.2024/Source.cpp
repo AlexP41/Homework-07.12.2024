@@ -19,7 +19,7 @@
 #include <locale>
 #include <iomanip>
 #include <ctime>
-#include <type_traits>
+
 
 using namespace std;
 
@@ -34,9 +34,10 @@ void invertArray(int lengthOfArray, int number, typeOfArray* array);
 
 int main() 
 {
+
 	system("chcp 1251>null");
-	srand(time(NULL));
 	setlocale(LC_ALL, "ukr");
+	srand(time(NULL));
 
 	cout << "\t\t\t\t\t\033[035mÇÀÂÄÀÍÍß 1\033[0m" << endl << endl;
 
